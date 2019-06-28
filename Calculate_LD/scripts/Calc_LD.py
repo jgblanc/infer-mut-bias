@@ -98,7 +98,7 @@ for i in range(len(out)):
     fig = pl.figure()         
     ax = fig.add_subplot()   
     ax.hist(x[1::], bins=100)
-    pl.xlabel('r^2')
+    pl.xlabel('r')
     fig.savefig(path.join(outpath,"freq_{0}.png".format(x[0], 1)))
 
 
